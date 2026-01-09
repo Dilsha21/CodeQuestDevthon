@@ -1,0 +1,189 @@
+MedFinder
+Prepared by :
+Dilsha Atugedara
+Kavyanga Hathurusinghe
+Senilka Madurapperumage
+Project Overview
+Our project proposes a web-based application that
+assists users with quickly locating the nearest pharmacy
+where a required medicine is currently available. Beyond
+convenience, the platform is designed with environmental
+sustainability at its core by minimizing unnecessary travel,
+reducing carbon emissions, and addressing inefficiencies in
+medicine distribution and storage.
+By combining real-time pharmacy inventory visibility with
+eco-aware decision support, the system enables users to
+choose pharmacies that result in the lowest environmental
+impact while also supporting pharmacies in managing
+stock more efficiently.
+Problem Statement
+Patients often travel long distances or visit multiple
+pharmacies to find unavailable medicines, leading to
+unnecessary fuel consumption, time loss, and increased
+carbon emissions. Simultaneously, pharmacies struggle
+with inaccurate demand forecasting, resulting in
+overproduction, over-distribution, and medicine wastage
+due to expiry.
+While medicine shortages and pharmaceutical waste
+continue to grow, there is currently no easy-to-use platform
+that provides transparent visibility into medicine stock
+levels while integrating sustainable pharmaceutical
+practices for both suppliers and patients.
+Proposed Solution
+We propose a smart web application, MedFinder,
+that connects users and pharmacies through a shared
+system of real-time medicine availability, demand
+prediction, and environmental impact awareness.
+Users can search for required medicines and receive
+recommendations for nearby pharmacies, minimizing
+travel distance, time taken to acquire medicines in
+time-critical situations, and associated carbon
+footprint all with MediFinder. Pharmacies benefit
+from AI-assisted demand forecasting, enabling
+optimized stock planning and reduced wastage. The
+platform also educates users on responsible medicine
+disposal and sustainable consumption.
+User Flow Diagram 
+Key Features (1/2)
+Public Medicine Stock Visibility
+Users can search for medicines and view nearby
+pharmacies with recently updated stock
+information, improving transparency and
+reducing unnecessary repeat visits.
+Eco-Aware Pharmacy Recommendations
+Pharmacies are suggested based on proximity,
+estimated travel emissions, and the likelihood of
+fulfilling the request in a single visit, helping
+minimize avoidable travel.
+Refill & Stock-Up Reminders
+Users on long-term or daily medication receive
+timely reminders to restock, helping prevent
+treatment interruptions and reducing last
+minute emergency trips.
+Demand Forecasting Support for Pharmacies
+Trend-based forecasting supports better
+stocking decisions, reducing overstocking,
+shortages, and medicine waste.
+Sustainability-Aware Assistance Chatbot
+An AI-powered chatbot provides general
+guidance for minor ailments, helps identify
+suitable over-the-counter medicine categories,
+and directs users to appropriate nearby
+pharmacies, while encouraging professional
+consultation when needed.
+Key Features (2/2)
+User Sustainability Dashboard
+A personal dashboard visualizes sustainable actions
+taken, including reduced repeat trips, estimated
+emissions avoided, and timely medication refills.
+Medicine Use & Waste Reduction Guidance
+In-app guidance promotes responsible medicine
+use, donation pathways where applicable, and safe
+disposal practices for unused or expired medicines.
+Carbon Impact Insights
+The platform provides indicative estimates of CO₂
+emissions avoided through optimized pharmacy
+selection and reduced repeat trips, clearly labeled
+as estimates.
+Technology Stack
+01
+Frontend
+React.js
+02
+Backend
+Fastapi
+03
+Database
+MySql
+04
+Mapping & Location Services
+Google Maps API
+05
+AI & Analytics
+Python-based ML models (demand forecasting,
+recommendation logic)
+06
+Hosting
+Cloud-based deployment (AWS / Firebase)
+System Architecture
+Diagram
+The following diagram illustrates the high-level
+architecture of the proposed system highlighting the
+interaction between users, the web application, backend
+services, AI modules, and pharmacy databases.
+Web App
+Backend Server
+Database
+Innovation
+The innovation of this project lies in combining healthcare
+accessibility with environmental intelligence. Unlike
+traditional pharmacy locator apps, this platform integrates
+AI-powered demand forecasting, sustainability education
+and carbon emission calculations all into a single
+ecosystem.
+The application transforms routine medicine purchasing
+into an environmentally conscious decision-making process
+while also helping pharmacies reduce waste and
+operational inefficiencies.
+Feasibility Analysis
+The project is technically feasible using existing open
+source frameworks, APIs, and machine learning libraries.
+The modular architecture allows phased implementation,
+starting with medicine availability tracking and gradually
+introducing AI-driven features.
+The development timeline fits well within the competition
+constraints, and the required technologies are well
+supported by current developer ecosystems.
+Impact Assessment
+Social Impact: Faster access to essential medicines,
+especially crucial in emergency situations, and for
+elderly and chronically ill patients.
+Economic Impact: Improved inventory efficiency for
+pharmacies, reducing losses from expired stock. 
+Environmental Impact: Reduced carbon emissions
+from unnecessary travel and decreased medicine
+wastage.
+Educational Impact: Increased public awareness of
+sustainable medicine usage and disposal.
+Additional Information
+Preliminary research and informal surveys indicate
+strong user interest in faster medicine access and
+sustainability-focused digital solutions. The growing
+emphasis on green technology and responsible
+healthcare practices further supports the relevance and
+scalability of this solution.
+The platform is designed to scale regionally and
+nationally, with robust security measures planned to
+protect user data and pharmacy inventory information.
+Future Scope
+Advanced Demand Forecasting
+Enhance ML models to include:
+Seasonal illness trends
+Weather data
+Public health alerts
+Smart Substitution Engine
+If a medicine is unavailable:
+Suggest medically equivalent alternatives
+Recommend nearest pharmacy with substitutes
+Flag approval requirements
+E-Prescription Support
+Digital prescription uploads:
+Automatic medicine matching
+Pharmacy-ready order summaries
+Government & NGO Collaboration Portal
+Aggregated, anonymized data can support:
+National medicine planning
+Public health policy decisions
+Environmental reporting
+Regional →
+ National →
+ Global Scaling
+Multi-language support
+Country-specific regulations
+Regulated cross-border medicine availability 
+Team Details
+Team Name : CodeQuest
+Team Leader : Kavyanga Hathurusinghe
+Contact Email :
+kavyangahathurusinghe1234@gmail.com
+Contact Phone : 0705279126 
