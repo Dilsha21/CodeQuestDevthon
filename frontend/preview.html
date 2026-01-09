@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedFinder - Preview</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f8fafc;
+        }
+        .preview-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: #0ea5e9;
+            color: white;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        h1 {
+            color: #1e293b;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #64748b;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .feature-card {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        .feature-title {
+            color: #1e293b;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .feature-desc {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        .cta-section {
+            text-align: center;
+            padding: 30px;
+            background: #f0f9ff;
+            border-radius: 8px;
+            border: 1px solid #bae6fd;
+        }
+        .cta-title {
+            color: #0c4a6e;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        .instructions {
+            background: #fef3c7;
+            border: 1px solid #fbbf24;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .instructions h3 {
+            color: #92400e;
+            margin-top: 0;
+        }
+        .instructions ol {
+            color: #78350f;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #0ea5e9;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            margin: 10px;
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+            background: #0284c7;
+        }
+        .btn-secondary {
+            background: #64748b;
+        }
+        .btn-secondary:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+<body>
+    <div class="preview-container">
+        <div class="header">
+            <div class="logo">💊</div>
+            <h1>MedFinder</h1>
+            <p class="subtitle">Smart Medicine Locator with Eco-Friendly Recommendations</p>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-title">🔍 Real-time Medicine Search</div>
+                <div class="feature-desc">Find available medicines at nearby pharmacies instantly with up-to-date inventory information.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-title">🌱 Eco-Friendly Recommendations</div>
+                <div class="feature-desc">Get pharmacy suggestions that minimize travel distance and reduce carbon emissions.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-title">⏰ Refill & Stock-Up Reminders</div>
+                <div class="feature-desc">Never run out of essential medicines with timely refill notifications.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-title">📊 Demand Forecasting Support</div>
+                <div class="feature-desc">Trend-based forecasting supports better stocking decisions, reducing waste.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-title">🤖 AI Health Assistant</div>
+                <div class="feature-desc">Get guidance for minor ailments and suitable over-the-counter medicine recommendations.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-title">📈 Sustainability Dashboard</div>
+                <div class="feature-desc">Track your environmental impact and CO₂ savings through optimized choices.</div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <div class="cta-title">Ready to Experience MedFinder?</div>
+            <p>This is a preview of the MedFinder application. To run the full interactive version, follow the instructions below.</p>
+            <div style="margin-top: 20px;">
+                <a href="#instructions" class="btn">View Setup Instructions</a>
+                <a href="https://github.com" class="btn btn-secondary" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+
+        <div class="instructions" id="instructions">
+            <h3>🚀 How to Run the Full Application</h3>
+            <ol>
+                <li><strong>Install Node.js:</strong> Download and install Node.js from <a href="https://nodejs.org/" target="_blank">nodejs.org</a></li>
+                <li><strong>Open Terminal/Command Prompt:</strong> Navigate to the project folder</li>
+                <li><strong>Install Dependencies:</strong> Run <code>npm install</code></li>
+                <li><strong>Start Development Server:</strong> Run <code>npm start</code></li>
+                <li><strong>Open Browser:</strong> The app will automatically open at http://localhost:3000</li>
+            </ol>
+            <p style="margin-top: 15px; color: #92400e;">
+                <strong>Note:</strong> Make sure you have Node.js 16+ installed for compatibility.
+            </p>
+        </div>
+
+        <div style="margin-top: 40px; padding: 20px; background: #f0fdf4; border-radius: 8px; border: 1px solid #bbf7d0;">
+            <h3 style="color: #166534; margin-top: 0;">🌟 Features Implemented</h3>
+            <ul style="color: #14532d; line-height: 1.6;">
+                <li>✅ Complete React.js application with modern hooks</li>
+                <li>✅ Responsive design for all devices (mobile, tablet, desktop)</li>
+                <li>✅ Three user roles: Patients, Pharmacy Admins, Super Admins</li>
+                <li>✅ Real-time medicine search with filters</li>
+                <li>✅ Sustainability tracking and eco-friendly recommendations</li>
+                <li>✅ AI-powered chatbot for health assistance</li>
+                <li>✅ Comprehensive dashboard with analytics</li>
+                <li>✅ Inventory management and demand forecasting</li>
+                <li>✅ User and pharmacy management systems</li>
+                <li>✅ Modern UI with Tailwind CSS</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

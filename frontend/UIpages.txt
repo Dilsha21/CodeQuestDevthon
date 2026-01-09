@@ -1,0 +1,59 @@
+MedFinder – Role Based UI Pages
+This document describes the user interface pages of the MedFinder web application categorized by
+user roles: Normal User (Patient), Pharmacy Admin, and Super Admin.
+1. Normal User (Patient)
+Home Page
+Introduces the system and allows users to quickly begin medicine searches.
+Components: Navigation bar, medicine search input, feature highlights, call-to-action buttons,
+footer.
+Login / Register Page
+Allows users to log in or create an account.
+Components: Email input, password input, register option, validation messages.
+Medicine Search Page
+Main page for searching medicine availability in nearby pharmacies.
+Components: Search bar, filters, pharmacy result cards, map view.
+Pharmacy Details Page
+Shows detailed pharmacy and medicine availability information.
+Components: Pharmacy details, medicine availability table, map route, carbon impact estimate,
+directions button.
+User Dashboard
+Personalized dashboard showing user activity and sustainability impact.
+Components: Profile summary, search history, refill reminders, sustainability statistics.
+Sustainability & Awareness Page
+Educates users on eco-friendly medicine usage and disposal.
+Components: Carbon savings summary, charts, tips, disposal guidance.
+AI Chatbot
+Provides assistance and medicine-related guidance.
+Components: Chat interface, suggested prompts, pharmacy recommendations.
+2. Pharmacy Admin
+Pharmacy Login
+Secure login page for pharmacies.
+Components: Pharmacy email/ID, password field.
+Pharmacy Dashboard
+Overview of pharmacy activity and inventory alerts.
+Components: Statistics cards, alerts, quick actions.
+Inventory Management Page
+Used to update medicine stock information.
+Components: Medicine table, quantity input, availability toggle, expiry dates.
+Demand Forecasting Page
+Displays demand predictions to reduce shortages and waste.
+Components: Demand graphs, low-stock alerts, overstock warnings.
+Pharmacy Profile & Settings
+Allows pharmacies to manage their details.
+Components: Pharmacy info form, contact details, operating hours.
+3. Super Admin
+Super Admin Login
+Secure access for system administrators.
+Components: Admin credentials.
+Super Admin Dashboard
+System-wide monitoring dashboard.
+Components: User counts, pharmacy counts, usage statistics.
+User Management
+Manage registered users.
+Components: User list, activation/deactivation controls.
+Pharmacy Management
+Approve and manage pharmacies.
+Components: Verification and approval tools.
+Reports & System Settings
+System analytics and configuration.
+Components: Reports, carbon calculation settings, notification rules.
